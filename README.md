@@ -11,20 +11,20 @@ This project makes use of Yahoo Finance API. The system has two features:
 ### Install
 
 ```
-go get github.com/PrasannaGajbhiye/CMPE273_StockTradingEngine
+go get github.com/PrasannaGajbhiye/cmpe273-assignment1
 ```
 
 Start the  server:
 
 ```
-cd CMPE273_StockTradingEngine
+cd cmpe273-assignment1
 go run server.go
 ```
 
 ### Start the client 
 #### Buying Stocks
 ```
-cd CMPE273_StockTradingEngine
+cd cmpe273-assignment1
 go run client.go "GOOG:100%" 2000
 ```
 Following will be the response for the above request:
@@ -37,7 +37,7 @@ UnvestedAmount: $XXX.XX
 #### Checking Portfolio
 
 ```
-cd CMPE273_StockTradingEngine
+cd cmpe273-assignment1
 go run client.go XXXXXX
 ```
 Following will be the response for the above request:
